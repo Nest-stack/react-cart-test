@@ -49,7 +49,6 @@ const App = () => {
         </Modal>
       )}
       <Header cartClick={modalShowHandler} />
-      <h1>New feature</h1>
       <ItemList menuData={MENU_DATA} />
     </>
   );
